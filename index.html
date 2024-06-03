@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/owl/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="header__top wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-md-9 col-md-3 social__links">
+                        <a href="#" class="social__link-item">
+                            <img src="/images/svg/iconVk.svg" alt="">
+                        </a>
+                        <a href="#" class="social__link-item">
+                            <img src="/images/svg/iconTikTok.svg" alt="">
+                        </a>
+                        <a href="#" class="social__link-item">
+                            <img src="/images/svg/iconinstagram.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="header__hero wrapper">
+            <div class="container-fluid">
+                <div class="row pt20 pb20">
+                    <div class="col-xl-3">
+                        <a href="#"><img src="/images/svg/logo.svg" alt=""></a>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="menu-wrapper">
+                            <button class="menu-toggle" aria-label="Toggle flyout menu" aria-expanded="false"
+                                aria-controls="flyout-menu">
+                            </button>
+                            <div class="menu-flyout" id="flyout-menu">
+                                <nav class="menu-main">
+                                    <a href="#">Главная</a>
+                                    <a href="#">Услуги</a>
+                                    <a href="#">Каталог</a>
+                                    <a href="#">Акции</a>
+                                    <a href="#">Проекты</a>
+                                    <a href="#">О компании</a>
+                                    <a href="#">Контакты</a>
+                                    <!-- <a href="#">News
+                                        <div class="dropdown">
+                                            <button class="dropbtn">Dropdown
+                                                <i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div class="dropdown-content">
+                                                <a href="#">Link 1</a>
+                                                <a href="#">Link 2</a>
+                                                <a href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </a> -->
+                                </nav>
+                                <!-- <nav class="menu-cta">
+                                    <a href="#"><svg class="icon-stroke">
+                                            <use xlink:href="#search"></use>
+                                        </svg>Search</a>
+                                    <a href="#"><svg class="icon-stroke">
+                                            <use xlink:href="#shopping-bag"></use>
+                                        </svg>Cart</a>
+                                </nav> -->
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="contacts">
+                            <div class="contacts__phone">
+                                <img src="/images/svg/phone.svg" alt=""> <a href="tel:+7 (495) 723-12-34">+7 (495)
+                                    723-12-34</a>
+                            </div>
+                            <div class="contacts__adress">
+                                <span class="white">Москва, Рязанская улица, дом 25 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 hero__inner">
+                        <h1 class="page_title blue">Промышленные чиллеры</h1>
+                        <div class="services_wrap">
+                            <div class="services_wrap_header white">Полный цикл работ:</div>
+                            <ul class="services_block">
+                                <li>
+                                    <a href="#" class="services_block-item">
+                                        <div class="services_block-icon">
+                                            <img src="/images/svg/shesternya.svg" alt="">
+                                        </div> <span>ОБСЛУЖИВАНИЕ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="services_block-item">
+                                        <div class="services_block-icon">
+                                            <img src="/images/svg/Computer.svg" alt="">
+                                        </div> <span>ДИАГНОСТИКА</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="services_block-item">
+                                        <div class="services_block-icon">
+                                            <img src="/images/svg/kluch.svg" alt="">
+                                        </div>
+                                        <span>РЕМОНТ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="services_block-item">
+                                        <div class="services_block-icon">
+                                            <img src="/images/svg/kluch.svg" alt="">
+                                        </div> <span>ПОДБОР ЗАПЧАСТЕЙ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="services_block-item">
+                                        <div class="services_block-icon">
+                                            <img src="/images/svg/kluch.svg" alt="">
+                                        </div> <span>ПОДБОР И ПЕРЕПОДБОР ЧИЛЛЕРОВ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <main class="main__wrapper wrapper">
+        <section class="section-about">
+            <div class="container">
+                <div class="row about_box">
+                    <div class="col-md-4">
+                        <div class="card-actions">
+                            <div class="card-actions__title">
+                                <h3>Акции</h3>
+                            </div>
+                            <div class="card-actions__image">
+                                <img src="/images/image1.png" alt="">
+                            </div>
+                            <div class="card-actions__btn">
+                                <a href="#" class="btn btn-outline">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="about_box-column">
+                            <div class="about_box-column__title">
+                                <h3>Коротко о нас</h3>
+                                <div class="subtitle">несколько слов о нашей компании</div>
+                            </div>
+                            <div class="description">
+                                <p>Специализированная компания по ремонту и обслуживанию чиллеров</p>
+                                <p>Мы гордимся тем, что нас рекомендуют клиентам, и наша репутация только укрепляется с
+                                    годами</p>
+                            </div>
+                            <div class="row about_box-column__footer">
+                                <div class="col-md-6">
+                                    <a href="#" class="btn btn-outline">Подробнее</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="stage">
+                                        <p class="t">Опыт работы</p>
+                                        <p class="b">20 ЛЕТ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-services">
+            <div class="container">
+                <h3 class="section-title">
+                    Наши услуги
+                </h3>
+                <div class="row services_box">
+                    <div class="col-md-4">
+                        <div class="card-services">
+                            <div class="card-services__image">
+                                <a href="#" class="card-services__image_link">
+                                    <img src="/images/image1.png" alt="">
+                                </a>
+                            </div>
+                            <h3 class="card-services__title">Ремонт чиллеров</h3>
+                            <ul class="card-services__list">
+                                <li>Диагностика чиллера</li>
+                                <li>Ремонт чиллера</li>
+                                <li>Капитальный ремонт</li>
+                                <li>Ремонт холодильного контура</li>
+                                <li>Замена контроллера</li>
+                                <li>Замена компрессора</li>
+                                <li>Замена испартеля</li>
+                                <li>Поиск утечки фреона</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-services">
+                            <div class="card-services__image">
+                                <a href="#" class="card-services__image_link">
+                                    <img src="/images/image1.png" alt="">
+                                </a>
+                            </div>
+                            <h3 class="card-services__title">Ремонт чиллеров</h3>
+                            <ul class="card-services__list">
+                                <li>Диагностика чиллера</li>
+                                <li>Ремонт чиллера</li>
+                                <li>Капитальный ремонт</li>
+                                <li>Ремонт холодильного контура</li>
+                                <li>Замена контроллера</li>
+                                <li>Замена компрессора</li>
+                                <li>Замена испартеля</li>
+                                <li>Поиск утечки фреона</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-services">
+                            <div class="card-services__image">
+                                <a href="#" class="card-services__image_link">
+                                    <img src="/images/image1.png" alt="">
+                                </a>
+                            </div>
+                            <h3 class="card-services__title">Ремонт чиллеров</h3>
+                            <ul class="card-services__list">
+                                <li>Диагностика чиллера</li>
+                                <li>Ремонт чиллера</li>
+                                <li>Капитальный ремонт</li>
+                                <li>Ремонт холодильного контура</li>
+                                <li>Замена контроллера</li>
+                                <li>Замена компрессора</li>
+                                <li>Замена испартеля</li>
+                                <li>Поиск утечки фреона</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-why">
+            <div class="container">
+                <h3 class="section-title">
+                    Почему нас выбирают
+                </h3>
+
+                <div class="row why_box">
+                    <div class="col-md-4">
+                        <div class="why_box-item">
+                            <p class="why_box-item_title">
+                                Квалифицированные сотрудники
+                            </p>
+                            <p>Наши специалисты работают круглосуточно, мы готовы предоставлять для Вас сервис 24.7</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="why_box-item">
+                            <p class="why_box-item_title">
+                                Квалифицированные сотрудники
+                            </p>
+                            <p>Наши специалисты работают круглосуточно, мы готовы предоставлять для Вас сервис 24.7</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="why_box-item">
+                            <p class="why_box-item_title">
+                                Квалифицированные сотрудники
+                            </p>
+                            <p>Наши специалисты работают круглосуточно, мы готовы предоставлять для Вас сервис 24.7</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="why_box-item">
+                            <p class="why_box-item_title">
+                                Квалифицированные сотрудники
+                            </p>
+                            <p>Наши специалисты работают круглосуточно, мы готовы предоставлять для Вас сервис 24.7</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="why_box-item">
+                            <p class="why_box-item_title">
+                                Квалифицированные сотрудники
+                            </p>
+                            <p>Наши специалисты работают круглосуточно, мы готовы предоставлять для Вас сервис 24.7</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="why_box-item">
+                            <p class="why_box-item_title">
+                                Квалифицированные сотрудники
+                            </p>
+                            <p>Наши специалисты работают круглосуточно, мы готовы предоставлять для Вас сервис 24.7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-questions">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="column-title">
+                            Частые <span>вопросы</span>
+                        </h3>
+                        <div class="accordion">
+                            <dl>
+                                <dt><a class="accordionTitle" href="#">Для чего нужно проектирование?</a></dt>
+                                <dd class="accordionItem accordionItemCollapsed">
+                                    <p>Недооценка важности этого базового этапа ведет к возникновению ошибок,
+                                        сложностям, неудобствам и дополнительным материалным затратам при дальнейшей
+                                        эксплуатации.</p>
+                                </dd>
+                                <dt><a href="#" class="accordionTitle">Что такое чиллер-фанкойл?</a></dt>
+                                <dd class="accordionItem accordionItemCollapsed">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam.
+                                        Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam
+                                        imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel
+                                        ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis
+                                        consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a,
+                                        iaculis eget mauris. </p>
+                                </dd>
+                                <dt><a href="#" class="accordionTitle">Что такое диспетчеризация?</a></dt>
+                                <dd class="accordionItem accordionItemCollapsed">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam.
+                                        Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam
+                                        imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel
+                                        ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis
+                                        consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a,
+                                        iaculis eget mauris. </p>
+                                </dd>
+                                <dt><a href="#" class="accordionTitle">Для чего нужно алмазное бурение?</a></dt>
+                                <dd class="accordionItem accordionItemCollapsed">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam.
+                                        Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam
+                                        imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel
+                                        ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis
+                                        consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a,
+                                        iaculis eget mauris. </p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="column-title">
+                            Задать <span>вопрос</span>
+                        </h3>
+                        <div class="questions_form">
+                            <form action="#">
+                                <div class="field_row">
+                                    <input type="text" placeholder="Имя"><input type="text" placeholder="Телефон">
+                                </div>
+                                <div class="fealf_row">
+                                    <textarea name="" id="" placeholder="Ваш вопрос"></textarea>
+                                </div>
+                                <p>Отправляя данную ворму, я даю согласие на обработку содержащиехся в ней персональных
+                                    данных согласно <a href="#">политики конфиденциальности</a>.</p>
+                                <input type="submit" value="ОТПРАВИТЬ" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-catalog">
+            <div class="container">
+                <h3 class="section-title">
+                    Каталог продукции
+                </h3>
+                <div class="row catalog_box">
+                    <div class="col-md-4">
+                        <div class="card-catalog">
+                            <div class="card-catalog__image">
+                                <a href="#" class="card-catalog__image_link">
+                                    <img src="/images/image2.png" alt="">
+                                </a>
+                            </div>
+                            <h3 class="card-catalog__title"> Daikin FWC06BF</h3>
+                            <ul class="card-catalog__list">
+                                <li>Мощность охлаждения: 6.20 кВт</li>
+                                <li>Мощность нагрева: 4.90 кВт</li>
+                            </ul>
+                            <a href="#" class="card-catalog__link">Цена по запросу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-catalog">
+                            <div class="card-catalog__image">
+                                <a href="#" class="card-catalog__image_link">
+                                    <img src="/images/image2.png" alt="">
+                                </a>
+                            </div>
+                            <h3 class="card-catalog__title"> Daikin FWC06BF</h3>
+                            <ul class="card-catalog__list">
+                                <li>Мощность охлаждения: 6.20 кВт</li>
+                                <li>Мощность нагрева: 4.90 кВт</li>
+                            </ul>
+                            <a href="#" class="card-catalog__link">Цена по запросу</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-catalog">
+                            <div class="card-catalog__image">
+                                <a href="#" class="card-catalog__image_link">
+                                    <img src="/images/image2.png" alt="">
+                                </a>
+                            </div>
+                            <h3 class="card-catalog__title"> Daikin FWC06BF</h3>
+                            <ul class="card-catalog__list">
+                                <li>Мощность охлаждения: 6.20 кВт</li>
+                                <li>Мощность нагрева: 4.90 кВт</li>
+                            </ul>
+                            <a href="#" class="card-catalog__link">Цена по запросу</a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-center">
+                            <a href="#" class="btn radius-0 more">Перейти в каталог</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-brands">
+            <div class="container">
+                <h3 class="section-title">
+                    Бренды с которыми мы работаем
+                </h3>
+                <div class="row brands_box">
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-1.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-2.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-3.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-4.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-1.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-2.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-3.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-4.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-1.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-2.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-3.png" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 brend-item"><a href="#"><img src="/images/brand-4.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-feedback">
+            <div class="container">
+                <h3 class="section-title">
+                    Необходима консультация?
+                </h3>
+                <div class="row feedback_box">
+                    <p class="info">Оставьте контакты и мы вам перезвоним</p>
+                    <form action="#">
+                        <div class="field_row">
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="text" placeholder="Телефон">
+                            <div class="form_checkbox">
+                                <!-- <input type="checkbox" name="" id="">  -->
+                                <div class="checkbox"></div>
+                                Я принимаю условия пользовательского соглашения
+                            </div>
+                            <input type="submit" value="ОТПРАВИТЬ" class="btn radius-1">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-portfolio">
+            <div class="container">
+                <h3 class="section-title">
+                    Реализованные проекты
+                </h3>
+                <div class="row portfolio_box">
+                    <div class="owl-carousel owl-theme portfolio-carousel">
+                        <div class="portfolio_item">
+                            <div class="portfolio_image"><img src="/images/project-1.png" alt=""></div>
+                            <h3 class="portfolio_title">Промышленный завод</h3>
+                            <div class="portfolio_location"><img src="/images/svg/geo.svg" alt=""> Россия, г. Мурманск
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_image"><img src="/images/project-1.png" alt=""></div>
+                            <h3 class="portfolio_title">Промышленный завод</h3>
+                            <div class="portfolio_location"><img src="/images/svg/geo.svg" alt=""> Россия, г. Мурманск
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_image"><img src="/images/project-1.png" alt=""></div>
+                            <h3 class="portfolio_title">Промышленный завод</h3>
+                            <div class="portfolio_location"><img src="/images/svg/geo.svg" alt=""> Россия, г. Мурманск
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_image"><img src="/images/project-1.png" alt=""></div>
+                            <h3 class="portfolio_title">Промышленный завод</h3>
+                            <div class="portfolio_location"><img src="/images/svg/geo.svg" alt=""> Россия, г. Мурманск
+                            </div>
+                        </div>
+                        <div class="portfolio_item">
+                            <div class="portfolio_image"><img src="/images/project-1.png" alt=""></div>
+                            <h3 class="portfolio_title">Промышленный завод</h3>
+                            <div class="portfolio_location"><img src="/images/svg/geo.svg" alt=""> Россия, г. Мурманск
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center w100">
+                        <a href="#" class="btn radius-1">перейти в проекты</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-sertificats">
+            <div class="container">
+                <h3 class="section-title">
+                    Сертификаты и лицензии
+                </h3>
+                <div class="row sertificats_box">
+                    <div class="sertificats-carousel owl-carousel owl-theme">
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sertificats_item">
+                            <div class="sertificats_image">
+                                <a href="/images/sertificate.png">
+                                    <img src="/images/sertificate.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-center w100">
+                        <a href="#" class="btn radius-1">Отправить заявку</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-map">
+            <div class="map">
+                <img src="images/map.png" alt="" class="w100">
+            </div>
+        </section>
+    </main>
+    <footer class="colophon">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row footer_columns">
+                    <div class="footer_column">
+                        <h3>Поставка и монтаж</h3>
+                        <ul>
+                            <li>Проектирование чиллера</li>
+                            <li>Пуско-наладка</li>
+                            <li>Замена чиллера</li>
+                            <li>Подбор и поставка аналогичных запчастей</li>
+                        </ul>
+                        <div class="footer_logo">
+                            <a href="#"><img src="/images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer_column">
+                        <h3>Обслуживание чиллеров</h3>
+                        <ul>
+                            <li>Разовое или годовое обслуживание</li>
+                            <li>Замена фильтров осушителей</li>
+                            <li>Замена масла</li>
+                            <li>Промывка испарителя</li>
+                            <li>Заправка</li>
+                            <li>Регенерация фреона</li>
+                            <li>Осушение и промывка контура</li>
+                            <li>Консервация и расконсервация</li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <h3>Ремонт чиллеров</h3>
+                        <ul>
+                            <li>Диагностика чиллера</li>
+                            <li>Ремонт чиллера</li>
+                            <li>Капитальный ремонт</li>
+                            <li>Ремонт холодильного контура</li>
+                            <li>Замена контроллера</li>
+                            <li>Замена компрессора</li>
+                            <li>Замена испартеля</li>
+                            <li>Поиск утечки фреона</li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <h3>Разделы сайта</h3>
+                        <ul>
+                            <li>Услуги</li>
+                            <li>Каталог</li>
+                            <li>Акции</li>
+                            <li>Проекты</li>
+                            <li>О компании</li>
+                            <li>Контакты</li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <h3>Свяжитесь с нами</h3>
+                        <div class="contacts-footer">
+                            <div class="footer__phone">
+                                <a href="tel:80000000000"><img src="/images/svg/phone-foot.svg" alt=""> 8 800 000 00 00</a>                                
+                            </div>
+                            <div class="footer__callback">
+                                <a href="#">Заказать звонок</a>                                
+                            </div>
+                            <div class="footer__mail">
+                                <a href="mailto:sales@sales.ru"><img src="/images/svg/mail-foot.svg" alt=""> sales@sales.ru</a>                                
+                            </div>
+                            <div class="footer__message">
+                                <a href="#"><img src="/images/svg/message-foot.svg" alt=""> Обратная связь</a>                                
+                            </div>
+                        </div>
+                        <div class="social__foot">
+                            <a href="#" class="social__foot__link"><img src="/images/svg/fb-foot.svg" alt=""></a>
+                            <a href="#" class="social__foot__link"><img src="/images/svg/insta-foot.svg" alt=""></a>
+                            <a href="#" class="social__foot__link"><img src="/images/svg/vk-foot.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copyright">
+                    <div class="col-md-2">
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#">Соглашение о Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="/assets/owl/owl.carousel.min.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+
+</html>
