@@ -121,7 +121,7 @@ $(document).ready(function () {
         margin: 10,
         dots: true,
         nav: true,
-        navText: ["<div class='nav-button'><img src='/images/arrow-left.png' alt=''></div>", "<div class='nav-button'><img src='/images/arrow-right.png' alt=''></div>"],
+        navText: ["<div class='nav-button'><img src='./images/arrow-left.png' alt=''></div>", "<div class='nav-button'><img src='./images/arrow-right.png' alt=''></div>"],
         responsive: {
             0: {
                 items: 1
@@ -136,7 +136,7 @@ $(document).ready(function () {
         margin: 10,
         dots: true,
         nav: true,
-        navText: ["<div class='nav-button'><img src='/images/arrow-left.png' alt=''></div>", "<div class='nav-button'><img src='/images/arrow-right.png' alt=''></div>"],
+        navText: ["<div class='nav-button'><img src='./images/arrow-left.png' alt=''></div>", "<div class='nav-button'><img src='./images/arrow-right.png' alt=''></div>"],
         responsive: {
             0: {
                 items: 2

@@ -110,7 +110,7 @@ input[type="submit"].btn:hover,
 }
 
 .header__hero {
-    background-image: url(/images/bg-hero.png);
+    background-image: url(./images/bg-hero.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -662,7 +662,7 @@ input[type="submit"].btn:hover,
 
 .accordion dl {}
 
-.accordion dt>a {
+.section-questions .accordion dt>a {
     text-align: left;
     font-weight: bold;
     padding: 8px 0;
@@ -677,19 +677,18 @@ input[type="submit"].btn:hover,
     position: relative;
 }
 
-.accordion dt>a span {
+.section-questions .accordion dt>a span {
     padding-left: 18px;
 }
 
-.accordion dd {
-    /* background-color: #1abc9c; */
+.section-questions .accordion dd {
     color: #fafafa;
     font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 30px;
 }
 
-.accordion dd>p {
+.section-questions .accordion dd>p {
     padding: 40px 50px 10px;
     font-size: 24px;
     line-height: 1.75;
@@ -704,12 +703,12 @@ input[type="submit"].btn:hover,
     position: relative;
 }
 
-.accordionTitle {
+.section-questions .accordionTitle {
     background-color: var(--bg-btn);
     /* border-bottom: 1px solid #2c3e50; */
 }
 
-.accordionTitle:before {
+.section-questions .accordionTitle:before {
     content: "+";
     float: left;
     -moz-transition: -moz-transform 0.3s ease-in-out;
@@ -732,15 +731,15 @@ input[type="submit"].btn:hover,
     margin-right: 20px;
 }
 
-.accordionTitle:hover {
+.section-questions .accordionTitle:hover {
     background-color: var(--bg-btn);
 }
 
-.accordionTitleActive {
+.section-questions .accordionTitleActive {
     background-color: var(--bg-btn);
 }
 
-.accordionTitleActive:before {
+.section-questions .accordionTitleActive:before {
     /* content: "-";     */
     -webkit-transform: rotate(-225deg);
     -moz-transform: rotate(-225deg);
@@ -1355,4 +1354,26 @@ margin-top: 10px;
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
+}
+
+.actions__accordion{
+    margin-top: 40px;
+}
+.actions__accordion h3{
+font-size: 32px;
+font-weight: 700;
+line-height: 54.08px;
+color: #fff;
+
+}
+.actions__accordion .accordionItem{
+
+}
+.actions__accordion .accordionItem .accordionItem__inner {
+    font-size: 24px;
+font-weight: 400;
+line-height: 40.56px;
+color:#fff;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
